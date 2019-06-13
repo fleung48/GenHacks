@@ -4,7 +4,9 @@
   "description": "site for genhacks",
   "main": "server.js",
   "scripts": {
-    "test": "node server.js"
+    "test": "npm start",
+    "dev": "nodemon ./server.js",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,13 @@
   "bugs": {
     "url": "https://github.com/e-zhang09/GenHacks/issues"
   },
-  "homepage": "https://github.com/e-zhang09/GenHacks#readme"
+  "homepage": "https://github.com/e-zhang09/GenHacks#readme",
+  "devDependencies": {
+    "nodemon": "^1.18.11"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "errorhandler": "^1.5.1",
+    "express": "^4.17.1"
+  }
 }
