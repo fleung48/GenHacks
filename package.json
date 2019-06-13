@@ -1,0 +1,19 @@
+{
+  "name": "hackathon_genhacks",
+  "version": "1.0.0",
+  "description": "site for genhacks",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/e-zhang09/GenHacks.git"
+  },
+  "author": "EZ",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/e-zhang09/GenHacks/issues"
+  },
+  "homepage": "https://github.com/e-zhang09/GenHacks#readme"
+}
