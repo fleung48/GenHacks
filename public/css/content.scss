@@ -1,0 +1,28 @@
+html, body{
+  padding: 0;
+  margin: 0;
+}
+
+.parallax{
+  background-image: url("../res/backdrop.jpg");
+
+  min-height: 100vh;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header-center{
+  position: absolute;
+  left: 0;
+  top: 50%;
+  margin-top: -55px;
+  height: 100px;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-size: 100px;
+}
+
