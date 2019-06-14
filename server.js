@@ -18,11 +18,18 @@ app.get(
 });
 
 app.get(
+    ['/sitemap.xml', '/sitemap'],
+    (req, res) => {
+    res.sendFile(path.join(__dirname, 'public/sitemap.xml'));
+});
+
+app.get(
     ['/site.webmanifest', '/favicon.ico', '/android-chrome-512x512.png', '/android-chrome-192x192.png', '/apple-touch-icon.png', '/favicon-16x16.png', '/favicon-32x32.png'],
     (req, res) => {
-        console.log(req.path.split('/')[1]);
+    console.log(req.path.split('/')[1]);
     res.sendFile(path.join(__dirname, 'public/res/' + req.path.split('/')[1]));
 });
+
 
 app.get('/*', (req, res) => {
     console.log(req.path);

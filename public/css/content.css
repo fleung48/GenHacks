@@ -4,13 +4,13 @@
 }
 
 html, body {
+  overflow-x: hidden;
   height: 100%;
   padding: 0;
   margin: 0;
 }
 
 .landing-hero {
-  align-items: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -19,11 +19,9 @@ html, body {
   overflow: hidden;
 }
 .landing-hero::before {
-  background-image: url("../res/backdrop.jpg");
-  background-color: rgba(10, 10, 15, 0.7);
-  background-blend-mode: darken;
+  background-image: url("../res/backdrop-mobile.jpg");
   background-repeat: no-repeat;
-  background-position: center top;
+  background-position: center bottom;
   background-size: cover;
   content: "";
   height: 100%;
@@ -35,17 +33,9 @@ html, body {
   z-index: -1;
 }
 
-*.hackathon-name {
-  font-size: 70px;
-}
-
-*.hackathon-time {
-  font-size: 25px;
-}
-
 *.hackathon-signup {
   padding-top: 20px;
-  margin-bottom: 40px;
+  margin-bottom: 4px;
   font-size: 34px;
 }
 *.hackathon-signup a {
@@ -59,30 +49,11 @@ html, body {
   text-decoration: none;
   position: relative;
 }
-*.hackathon-signup .underline:after {
-  position: absolute;
-  content: "";
-  height: 2px;
-  bottom: -2px;
-  margin: 0 auto;
-  left: 0;
-  right: 0;
-  width: 60%;
-  background: #c8c8c8;
-  -o-transition: 0.5s;
-  -ms-transition: 0.5s;
-  -moz-transition: 0.5s;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-}
-*.hackathon-signup .underline:hover:after {
-  width: 80%;
-  background: #969696;
-}
 
 .headline {
   font-family: "Kanit", sans-serif;
   color: white;
+  padding-left: 15px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   border-radius: 10px;
@@ -98,6 +69,109 @@ html, body {
 
 .actual-content {
   background: white;
+}
+
+.unselectable {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -khtml-user-select: none;
+}
+
+.container-arrow {
+  display: none;
+}
+
+*.hackathon-time {
+  font-size: 23px;
+}
+
+*.hackathon-name {
+  font-size: 60px;
+  line-height: 75px;
+  text-indent: -15px;
+  padding-left: 30px;
+  padding-bottom: 10px;
+}
+
+@media only screen and (min-width: 768px) {
+  .landing-hero {
+    align-items: center;
+  }
+
+  .scroll-down {
+    border: solid #969696;
+    border-width: 0 2.5px 2.5px 0;
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    position: relative;
+    top: -2.4px;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+  .container-arrow {
+    display: unset;
+    font-size: 15px;
+    color: #969696;
+    position: relative;
+    top: 26vh;
+  }
+
+  .container-arrow:hover {
+    cursor: pointer;
+    color: #afafaf;
+  }
+
+  *.hackathon-signup .underline:after {
+    position: absolute;
+    content: "";
+    height: 2px;
+    bottom: -2px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    width: 60%;
+    background: #c8c8c8;
+    -o-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  *.hackathon-signup .underline:hover:after {
+    width: 80%;
+    background: #969696;
+  }
+
+  .headline {
+    padding-left: 0;
+  }
+
+  .hackathon-name {
+    line-height: unset;
+    font-size: 70px;
+    text-indent: unset;
+    padding: unset;
+  }
+
+  .hackathon-time {
+    line-height: unset;
+    text-indent: unset;
+    font-size: 25px;
+  }
+
+  .landing-hero::before {
+    background-image: url("../res/backdrop.jpg");
+    background-color: rgba(10, 10, 15, 0.7);
+    background-blend-mode: darken;
+    background-position: center top;
+  }
 }
 
 /*# sourceMappingURL=content.css.map */
