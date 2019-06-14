@@ -1,4 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Kanit&display=swap");
+:root {
+  --text-select-color: rgba(100,100,100,0.7);
+}
+
 html, body {
   height: 100%;
   padding: 0;
@@ -32,16 +36,64 @@ html, body {
 }
 
 *.hackathon-name {
-  font-size: 65px;
+  font-size: 70px;
 }
 
 *.hackathon-time {
-  font-size: 40px;
+  font-size: 25px;
+}
+
+*.hackathon-signup {
+  padding-top: 20px;
+  margin-bottom: 40px;
+  font-size: 34px;
+}
+*.hackathon-signup a {
+  color: #c8c8c8;
+  text-decoration: none;
+}
+*.hackathon-signup a:hover {
+  color: #afafaf;
+}
+*.hackathon-signup .underline {
+  text-decoration: none;
+  position: relative;
+}
+*.hackathon-signup .underline:after {
+  position: absolute;
+  content: "";
+  height: 2px;
+  bottom: -2px;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  width: 60%;
+  background: #c8c8c8;
+  -o-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+*.hackathon-signup .underline:hover:after {
+  width: 80%;
+  background: #969696;
 }
 
 .headline {
   font-family: "Kanit", sans-serif;
   color: white;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+
+.headline::selection {
+  background: var(--text-select-color);
+}
+
+.headline::-moz-selection {
+  background: var(--text-select-color);
 }
 
 .actual-content {

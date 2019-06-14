@@ -12,6 +12,12 @@ app.get('/', (req,res) => {
 });
 
 app.get(
+    ['/registration-form', '/register', '/sign-up'],
+    (req, res) => {
+    res.sendFile(path.join(__dirname, 'public/views/register.html'));
+});
+
+app.get(
     ['/site.webmanifest', '/favicon.ico', '/android-chrome-512x512.png', '/android-chrome-192x192.png', '/apple-touch-icon.png', '/favicon-16x16.png', '/favicon-32x32.png'],
     (req, res) => {
         console.log(req.path.split('/')[1]);
