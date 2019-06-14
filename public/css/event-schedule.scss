@@ -1,0 +1,64 @@
+.table-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+  padding: 0 15px;
+  font-family: 'Kanit', sans-serif;
+  background: rgb(225, 225, 225);
+  text-align: center;
+  font-size: 50px;
+}
+
+.header{
+  flex: 1 100%;
+  font-size: 1.2em;
+}
+
+.label-day{
+  flex: 1 100%;
+  font-size: 0.9em;
+}
+
+.day-container{
+  flex: 1 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.split-label{
+  font-size: 0.5em;
+  flex: 2 50%;
+}
+
+.event{
+  position: relative;
+  margin-bottom: 1em;
+}
+
+.event:after{
+  position: absolute;
+  content: '';
+  height: 2px;
+  bottom: -2px;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  width: 60%;
+  background: rgb(200,200,200);
+}
+
+
+@media only screen and (min-width: 768px) {
+  .table-container{
+    align-items: unset;
+  }
+  .day-container{
+    flex: 1 50%;
+  }
+  .label-day{
+    flex: 1 100%;
+    font-size: 0.9em;
+  }
+}

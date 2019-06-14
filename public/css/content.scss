@@ -11,6 +11,10 @@ html, body{
   margin: 0;
 }
 
+.container{
+  width: 100%;
+}
+
 .landing-hero{
   display: flex;
   flex-direction: column;
@@ -56,6 +60,7 @@ html, body{
 }
 
 .headline{
+  opacity: 0;
   font-family: 'Kanit', sans-serif;
   color: white;
   padding-left: 15px;
