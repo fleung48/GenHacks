@@ -8,4 +8,8 @@ html, body {
   height: 100vh;
 }
 
+#content-container {
+  height: 100%;
+}
+
 /*# sourceMappingURL=index.css.map */

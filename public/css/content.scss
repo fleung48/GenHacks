@@ -1,28 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Kanit&display=swap');
+
 html, body{
+  height: 100%;
   padding: 0;
   margin: 0;
 }
 
-.parallax{
-  background-image: url("../res/backdrop.jpg");
+.landing-hero{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100%;
+  position: relative;
+  overflow: hidden;
 
-  min-height: 100vh;
 
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  &::before {
+    background-image: url("../res/backdrop.jpg");
+    background-color: rgba(10,10,15,0.7);
+    background-blend-mode: darken;
+
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    content: '';
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    will-change: transform;
+    z-index: -1;
+  }
 }
 
-.header-center{
-  position: absolute;
-  left: 0;
-  top: 50%;
-  margin-top: -55px;
-  height: 100px;
-  width: 100%;
-  text-align: center;
+*.hackathon-name{
+  font-size: 65px;
+}
+
+*.hackathon-time{
+  font-size: 40px;
+}
+
+.headline{
+  font-family: 'Kanit', sans-serif;
   color: white;
-  font-size: 100px;
 }
 
+.actual-content{
+  background: white;
+}
