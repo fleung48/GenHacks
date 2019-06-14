@@ -29,18 +29,29 @@
 
 .split-label {
   font-size: 0.5em;
-  flex: 2 50%;
+}
+
+.event-container {
+  flex: 1 100%;
+  display: flex;
 }
 
 .event {
   position: relative;
   margin-bottom: 1em;
+  flex: 1 calc(100%/3*2);
+}
+
+.time {
+  flex: 1 calc(100%/3);
+  padding-right: 0.15em;
 }
 
 .event:after {
   position: absolute;
   content: "";
-  height: 2px;
+  height: 2.5px;
+  display: inline-table;
   bottom: -2px;
   margin: 0 auto;
   left: 0;
@@ -54,13 +65,25 @@
     align-items: unset;
   }
 
+  .spacer {
+    flex: 1 calc(20%/3);
+  }
+
+  .time {
+    padding-right: 0.05em;
+  }
+
   .day-container {
-    flex: 1 50%;
+    flex: 1 40%;
   }
 
   .label-day {
     flex: 1 100%;
     font-size: 0.9em;
+  }
+
+  #tuesday-container {
+    align-self: flex-start;
   }
 }
 

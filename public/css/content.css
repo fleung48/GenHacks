@@ -178,5 +178,8 @@ html, body {
     background-position: center top;
   }
 }
+#loadOverlay {
+  display: none;
+}
 
 /*# sourceMappingURL=content.css.map */
