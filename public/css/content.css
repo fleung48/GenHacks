@@ -12,6 +12,7 @@ html, body {
 
 .container {
   width: 100%;
+  height: 100%;
 }
 
 .landing-hero {
@@ -43,11 +44,11 @@ html, body {
   font-size: 34px;
 }
 *.hackathon-signup a {
-  color: #c8c8c8;
+  color: #9ee0a7;
   text-decoration: none;
 }
 *.hackathon-signup a:hover {
-  color: #afafaf;
+  color: #c5edca;
 }
 *.hackathon-signup .underline {
   text-decoration: none;
@@ -57,7 +58,7 @@ html, body {
 .headline {
   opacity: 0;
   font-family: "Kanit", sans-serif;
-  color: white;
+  color: #319b3f;
   padding-left: 15px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
@@ -74,6 +75,7 @@ html, body {
 
 .actual-content {
   background: white;
+  height: 100%;
 }
 
 .unselectable {
@@ -93,11 +95,25 @@ html, body {
 }
 
 *.hackathon-name {
+  font-weight: bolder;
   font-size: 60px;
+  letter-spacing: 2px;
   line-height: 75px;
   text-indent: -15px;
   padding-left: 30px;
   padding-bottom: 10px;
+}
+
+.underline:after {
+  position: absolute;
+  content: "";
+  height: 2px;
+  bottom: 0px;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  width: 90%;
+  background: #9ee0a7;
 }
 
 @media only screen and (min-width: 768px) {
@@ -125,7 +141,7 @@ html, body {
     font-size: 15px;
     color: #969696;
     position: relative;
-    top: 26vh;
+    top: 26.1vh;
   }
 
   .container-arrow:hover {
@@ -133,16 +149,22 @@ html, body {
     color: #afafaf;
   }
 
+  *.hackathon-signup {
+    padding-top: 45px;
+  }
+  *.hackathon-signup a {
+    letter-spacing: 0.4px;
+    font-size: 33px;
+  }
   *.hackathon-signup .underline:after {
     position: absolute;
     content: "";
     height: 2px;
-    bottom: -2px;
+    bottom: 0px;
     margin: 0 auto;
     left: 0;
     right: 0;
-    width: 60%;
-    background: #c8c8c8;
+    width: 40%;
     -o-transition: 0.5s;
     -ms-transition: 0.5s;
     -moz-transition: 0.5s;
@@ -151,7 +173,7 @@ html, body {
   }
   *.hackathon-signup .underline:hover:after {
     width: 80%;
-    background: #969696;
+    background: #c5edca;
   }
 
   .headline {
@@ -160,7 +182,7 @@ html, body {
 
   .hackathon-name {
     line-height: unset;
-    font-size: 70px;
+    font-size: 75px;
     text-indent: unset;
     padding: unset;
   }

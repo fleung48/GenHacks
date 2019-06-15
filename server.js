@@ -3,6 +3,10 @@ const app = express();
 const path = require('path');
 const fs = require('fs');
 
+const isLocal = process.env.NODE_ENV == null && process.env.NODE_ENV !== 'production';
+
+console.log("is local? " + isLocal);
+
 const server = app.listen(process.env.PORT || 3000, function () {
     console.log('Listening on port ' + server.address().port);
 });
@@ -26,13 +30,17 @@ app.get(
 app.get(
     ['/site.webmanifest', '/favicon.ico', '/android-chrome-512x512.png', '/android-chrome-192x192.png', '/apple-touch-icon.png', '/favicon-16x16.png', '/favicon-32x32.png'],
     (req, res) => {
-    console.log(req.path.split('/')[1]);
+    if(isLocal) {
+        console.log(req.path.split('/')[1]);
+    }
     res.sendFile(path.join(__dirname, 'public/res/' + req.path.split('/')[1]));
 });
 
 
 app.get('/*', (req, res) => {
-    console.log(req.path);
+    if(isLocal){
+        console.log(req.path);
+    }
     fs.stat(path.join(__dirname , '/public/' + req.path), function(err, stat) {
         if(err == null) {
             res.sendFile(path.join(__dirname , '/public/' + req.path));
