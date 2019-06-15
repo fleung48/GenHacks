@@ -11,6 +11,9 @@ function onLoad () {
       $("#event-schedule-container").load("/views/event-schedule.html");
    });
    $(function(){
+      $("#random-plants").load("/views/plantsbackdrop.html");
+   });
+   $(function(){
       $("#faq-container").load("/views/faq.html");
    });
    $(function(){
