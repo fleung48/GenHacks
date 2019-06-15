@@ -1,9 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Kanit&display=swap");
 :root {
-  --text-select-color: rgba(100,100,100,0.7);
+  --text-select-color: rgba(100, 100, 100, 0.7);
 }
 
 html, body {
+  font-family: "Kanit", sans-serif;
   overflow-x: hidden;
   height: 100%;
   padding: 0;
@@ -38,26 +39,25 @@ html, body {
   z-index: -1;
 }
 
-*.hackathon-signup {
+.hackathon-signup {
   padding-top: 20px;
   margin-bottom: 4px;
   font-size: 34px;
 }
-*.hackathon-signup a {
+.hackathon-signup a {
   color: #9ee0a7;
   text-decoration: none;
 }
-*.hackathon-signup a:hover {
+.hackathon-signup a:hover {
   color: #c5edca;
 }
-*.hackathon-signup .underline {
+.hackathon-signup .underline {
   text-decoration: none;
   position: relative;
 }
 
 .headline {
   opacity: 0;
-  font-family: "Kanit", sans-serif;
   color: #319b3f;
   padding-left: 15px;
   -webkit-border-radius: 10px;
@@ -74,8 +74,8 @@ html, body {
 }
 
 .actual-content {
-  background: white;
-  height: 100%;
+  background-image: linear-gradient(to bottom, #d8f3dc, #b1e7b9);
+  height: fit-content;
 }
 
 .unselectable {
@@ -90,11 +90,11 @@ html, body {
   display: none;
 }
 
-*.hackathon-time {
+.hackathon-time {
   font-size: 23px;
 }
 
-*.hackathon-name {
+.hackathon-name {
   font-weight: bolder;
   font-size: 60px;
   letter-spacing: 2px;
@@ -114,6 +114,110 @@ html, body {
   right: 0;
   width: 90%;
   background: #9ee0a7;
+}
+
+.table-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: flex-start;
+  height: fit-content;
+  padding: 75px 15px 0px 15px;
+  font-size: 50px;
+}
+
+.header {
+  flex: 1 100%;
+  font-size: 1.2em;
+}
+
+.label-day {
+  flex: 1 100%;
+  font-size: 0.9em;
+}
+
+.day-container {
+  flex: 1 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.split-label {
+  font-size: 0.5em;
+}
+
+.event-container {
+  flex: 1 100%;
+  display: flex;
+}
+
+.event {
+  position: relative;
+  margin-bottom: 1em;
+  width: fit-content;
+}
+
+.event-name-container {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex: 1 50%;
+}
+
+.time {
+  padding-right: 0.15em;
+  flex: 1 50%;
+}
+
+.event:after {
+  position: absolute;
+  content: "";
+  height: 2px;
+  display: inline-table;
+  bottom: 0px;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  width: 75%;
+  background-color: #969696;
+}
+
+#loadOverlay {
+  display: none;
+}
+
+.faq-container {
+  text-align: center;
+  font-size: 50px;
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+}
+
+.qa-container {
+  padding: 10px;
+  margin: 4px;
+  background-color: white;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+
+.question {
+  font-weight: bolder;
+  font-size: 0.55em;
+}
+
+.answer {
+  font-size: 0.35em;
+  color: #0c0c0c;
+}
+
+#map {
+  margin: auto;
+  height: 300px;
+  width: 100%;
 }
 
 @media only screen and (min-width: 768px) {
@@ -199,9 +303,50 @@ html, body {
     background-blend-mode: darken;
     background-position: center top;
   }
-}
-#loadOverlay {
-  display: none;
+
+  .spacer-vertical {
+    flex: 1 100%;
+    height: 100px;
+  }
+
+  .table-container {
+    text-align: center;
+    padding: 100px 15px;
+  }
+
+  .spacer {
+    flex: 1 calc(20% / 3);
+  }
+
+  .time {
+    padding-right: 0.4rem;
+    text-align: right;
+  }
+
+  .event {
+    text-align: left;
+  }
+
+  .day-container {
+    flex: 1 40%;
+    height: fit-content;
+    align-self: flex-start;
+  }
+
+  .label-day {
+    flex: 1 100%;
+    font-size: 0.9em;
+    padding-bottom: 20px;
+  }
+
+  .event-name-container {
+    padding-left: 0.4rem;
+    justify-content: unset;
+  }
+
+  .event:after {
+    margin: unset;
+  }
 }
 
 /*# sourceMappingURL=content.css.map */

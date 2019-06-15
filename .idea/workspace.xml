@@ -2,19 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49be8fdd-768b-4fd7-b21a-71661dd3785a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/css/faq.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/res/plantspic.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/views/faq.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/views/plantsbackdrop.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/content.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/content.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/content.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/content.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/content.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/content.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/event-schedule.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/event-schedule.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/event-schedule.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/faq.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/faq.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/faq.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/index.scss" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/public/javascript/content.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/javascript/content.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/res/android-chrome-192x192.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/res/android-chrome-192x192.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/res/android-chrome-512x512.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/res/android-chrome-512x512.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/res/apple-touch-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/res/apple-touch-icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/res/favicon-16x16.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/res/favicon-16x16.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/res/favicon-32x32.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/res/favicon-32x32.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/res/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/res/favicon.ico" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/views/content.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/views/content.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/views/event-schedule.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/views/faq.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/views/plantsbackdrop.html" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,44 +32,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/views/event-schedule.html">
+        <entry file="file://$PROJECT_DIR$/public/javascript/content.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="74" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="74" />
+            <state relative-caret-position="401">
+              <caret line="51" column="41" selection-start-line="51" selection-start-column="41" selection-end-line="51" selection-end-column="41" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/css/event-schedule.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="10" column="63" selection-start-line="10" selection-start-column="63" selection-end-line="10" selection-end-column="63" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/views/faq.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/css/faq.scss">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/views/content.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="26" column="54" selection-start-line="26" selection-start-column="54" selection-end-line="26" selection-end-column="54" />
+            <state relative-caret-position="333">
+              <caret line="118" column="32" selection-start-line="118" selection-start-column="32" selection-end-line="118" selection-end-column="32" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#head#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
           </provider>
@@ -74,17 +56,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/css/content.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="28" column="56" selection-start-line="28" selection-end-line="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/views/plantsbackdrop.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+            <state relative-caret-position="435">
+              <caret line="234" column="14" selection-start-line="234" selection-start-column="14" selection-end-line="234" selection-end-column="14" />
+              <folding>
+                <element signature="e#1617#1774#0" />
+                <element signature="e#3078#5399#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -101,10 +78,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>url</find>
-      <find>position</find>
-      <find>landing</find>
-      <find>split monday</find>
       <find>split tuesday</find>
       <find>font</find>
       <find>label-time</find>
@@ -131,6 +104,10 @@
       <find>.event:after{</find>
       <find>underline</find>
       <find>nav-bar</find>
+      <find>actual</find>
+      <find>font-size</find>
+      <find>font-famil</find>
+      <find>table-con</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -154,11 +131,11 @@
         <option value="$PROJECT_DIR$/public/views/register.html" />
         <option value="$PROJECT_DIR$/public/views/event-schedule.html" />
         <option value="$PROJECT_DIR$/public/css/event-schedule.scss" />
-        <option value="$PROJECT_DIR$/public/css/content.scss" />
         <option value="$PROJECT_DIR$/public/views/faq.html" />
-        <option value="$PROJECT_DIR$/public/views/content.html" />
-        <option value="$PROJECT_DIR$/public/javascript/content.js" />
         <option value="$PROJECT_DIR$/public/views/plantsbackdrop.html" />
+        <option value="$PROJECT_DIR$/public/javascript/content.js" />
+        <option value="$PROJECT_DIR$/public/css/content.scss" />
+        <option value="$PROJECT_DIR$/public/views/content.html" />
       </list>
     </option>
   </component>
@@ -268,7 +245,7 @@
       <option name="presentableId" value="Default" />
       <updated>1560411487650</updated>
       <workItem from="1560411488876" duration="7005000" />
-      <workItem from="1560453473575" duration="43580000" />
+      <workItem from="1560453473575" duration="48921000" />
     </task>
     <task id="LOCAL-00001" summary="Added parallax to home page">
       <created>1560465694741</created>
@@ -326,11 +303,18 @@
       <option name="project" value="LOCAL" />
       <updated>1560575977081</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="About to restructure to prevent too many html files">
+      <created>1560578300404</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1560578300404</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50585000" />
+    <option name="totallyTimeSpent" value="55926000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1472" height="878" extended-state="6" />
@@ -412,7 +396,8 @@
     <MESSAGE value="Forgot to add css for mobile schedule table and too tired to amend" />
     <MESSAGE value="Fixed Schedule table for both web &amp; mobile" />
     <MESSAGE value="Changed to a green theme and fixed schedule format" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed to a green theme and fixed schedule format" />
+    <MESSAGE value="About to restructure to prevent too many html files" />
+    <option name="LAST_COMMIT_MESSAGE" value="About to restructure to prevent too many html files" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app.yaml">
@@ -494,13 +479,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/views/event-schedule.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="74" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/css/faq.scss">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -518,27 +496,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/views/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-109">
-          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/event-schedule.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="10" column="63" selection-start-line="10" selection-start-column="63" selection-end-line="10" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/javascript/content.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="53" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/views/plantsbackdrop.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -546,19 +503,52 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/views/event-schedule.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="61" column="10" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="61" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/event-schedule.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="17" column="1" lean-forward="true" selection-end-line="112" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/views/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javascript/content.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="51" column="41" selection-start-line="51" selection-start-column="41" selection-end-line="51" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/css/content.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="28" column="56" selection-start-line="28" selection-end-line="29" />
+        <state relative-caret-position="435">
+          <caret line="234" column="14" selection-start-line="234" selection-start-column="14" selection-end-line="234" selection-end-column="14" />
+          <folding>
+            <element signature="e#1617#1774#0" />
+            <element signature="e#3078#5399#0" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/views/content.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="26" column="54" selection-start-line="26" selection-start-column="54" selection-end-line="26" selection-end-column="54" />
+        <state relative-caret-position="333">
+          <caret line="118" column="32" selection-start-line="118" selection-start-column="32" selection-end-line="118" selection-end-column="32" />
           <folding>
             <element signature="n#style#0;n#div#0;n#head#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
