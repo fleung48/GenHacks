@@ -206,8 +206,8 @@ html, body {
   text-align: center;
   font-size: 50px;
   display: flex;
-  flex-direction: column;
-  padding: 25px;
+  padding: 10px 15px 100px 15px;
+  flex-wrap: wrap;
 }
 
 .qa-container{
@@ -225,17 +225,43 @@ html, body {
 }
 
 .answer{
+  width: 100%;
   font-size: 0.35em;
   color: #0c0c0c;
 }
 
-#map{
-  margin: auto;
-  height: 300px;
+.mapouter {
+  display: none;
+}
+
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 250px;
   width: 100%;
 }
 
+.subcontainer-faq{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#header-faq{
+  font-size: 1em;
+}
+
+.copyright-notice{
+  font-family: serif;
+  font-size: 0.5em;
+  text-align: center;
+  padding-bottom: 1px;
+}
+
 @media only screen and (min-width: 768px) {
+  .copyright-notice{
+    font-size: 0.55em;
+  }
   .landing-hero {
     align-items: center;
   }
@@ -363,8 +389,28 @@ html, body {
     justify-content: unset;
   }
   .event:after {
-
     margin: unset;
   }
 
+  .subcontainer-faq{
+    flex: 1 50%;
+  }
+
+  .qa-container{
+    min-height: 100px;
+  }
+  .mapouter{
+    display: unset;
+    position: relative;
+    text-align: right;
+    height: 250px;
+    width: 100%;
+    a{
+      display: none;
+    }
+  }
+
+  #header-faq{
+    padding-bottom: 10px;
+  }
 }
