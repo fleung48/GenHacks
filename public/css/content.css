@@ -22,6 +22,7 @@ html, body {
   height: 100%;
   padding: 0;
   margin: 0;
+  background-color: #77dd77;
 }
 
 .container {
@@ -38,11 +39,6 @@ html, body {
   overflow: hidden;
 }
 .landing-hero::before {
-  background-image: url("../res/backdrop-mobile.jpg");
-  background-repeat: no-repeat;
-  background-position: center bottom;
-  background-size: cover;
-  content: "";
   height: 100%;
   left: 0;
   position: fixed;
@@ -58,11 +54,11 @@ html, body {
   font-size: 34px;
 }
 .hackathon-signup a {
-  color: #9ee0a7;
+  color: #121812;
   text-decoration: none;
 }
 .hackathon-signup a:hover {
-  color: #c5edca;
+  color: #4d6d4d;
 }
 .hackathon-signup .underline {
   text-decoration: none;
@@ -71,7 +67,7 @@ html, body {
 
 .headline {
   opacity: 0;
-  color: #319b3f;
+  color: #041809;
   padding-left: 15px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
@@ -87,7 +83,6 @@ html, body {
 }
 
 .actual-content {
-  background-color: white;
   height: fit-content;
 }
 
@@ -127,7 +122,7 @@ html, body {
   left: 0;
   right: 0;
   width: 90%;
-  background: #9ee0a7;
+  background: #1e241e;
 }
 
 .table-container {
@@ -299,7 +294,7 @@ html, body {
   }
 
   .scroll-down {
-    border: solid #969696;
+    border: solid #4e4e4e;
     border-width: 0 2.5px 2.5px 0;
     display: inline-block;
     width: 7px;
@@ -316,14 +311,14 @@ html, body {
   .container-arrow {
     display: unset;
     font-size: 15px;
-    color: #969696;
+    color: #131313;
     position: relative;
     top: 26.1vh;
   }
 
   .container-arrow:hover {
     cursor: pointer;
-    color: #afafaf;
+    color: #4d4d4d;
   }
 
   *.hackathon-signup {
@@ -350,7 +345,7 @@ html, body {
   }
   *.hackathon-signup .underline:hover:after {
     width: 80%;
-    background: #c5edca;
+    background: #587059;
   }
 
   .headline {
@@ -368,13 +363,6 @@ html, body {
     line-height: unset;
     text-indent: unset;
     font-size: 25px;
-  }
-
-  .landing-hero::before {
-    background-image: url("../res/backdrop.jpg");
-    background-color: rgba(10, 10, 15, 0.7);
-    background-blend-mode: darken;
-    background-position: center top;
   }
 
   .spacer-vertical {

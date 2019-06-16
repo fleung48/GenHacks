@@ -27,6 +27,7 @@ html, body {
   height: 100%;
   padding: 0;
   margin: 0;
+  background-color: #77dd77;
 }
 
 .container {
@@ -44,12 +45,12 @@ html, body {
 
 
   &::before {
-    background-image: url("../res/backdrop-mobile.jpg");
+    //background-image: url("../res/backdrop-mobile.jpg");
 
-    background-repeat: no-repeat;
-    background-position: center bottom;
-    background-size: cover;
-    content: '';
+    //background-repeat: no-repeat;
+    //background-position: center bottom;
+    //background-size: cover;
+    //content: '';
     height: 100%;
     left: 0;
     position: fixed;
@@ -66,13 +67,13 @@ html, body {
   font-size: 34px;
 
   a {
-    color: #9ee0a7;
+    color: #121812;
     text-decoration: none;
 
   }
 
   a:hover {
-    color: #c5edca;
+    color: #4d6d4d;
   }
 
   .underline {
@@ -84,7 +85,7 @@ html, body {
 .headline {
   opacity: 0;
   //color: white;
-  color: #319b3f;
+  color: #041809;
   padding-left: 15px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
@@ -101,7 +102,7 @@ html, body {
 
 .actual-content {
   //background-image: linear-gradient(to bottom, #d8f3dc, #b1e7b9);
-  background-color: white;
+  //background-color: white;
   height: fit-content;
 }
 
@@ -143,7 +144,7 @@ html, body {
   left: 0;
   right: 0;
   width: 90%;
-  background: #9ee0a7;
+  background: #1e241e;
 }
 
 .table-container {
@@ -325,7 +326,7 @@ html, body {
   }
 
   .scroll-down {
-    border: solid rgb(150, 150, 150);
+    border: solid rgb(78, 78, 78);
     border-width: 0 2.5px 2.5px 0;
     display: inline-block;
     width: 7px;
@@ -343,14 +344,14 @@ html, body {
   .container-arrow {
     display: unset;
     font-size: 15px;
-    color: rgb(150, 150, 150);
+    color: rgb(19, 19, 19);
     position: relative;
     top: 26.1vh;
   }
 
   .container-arrow:hover {
     cursor: pointer;
-    color: rgb(175, 175, 175);
+    color: rgb(77, 77, 77);
   }
 
   *.hackathon-signup {
@@ -381,7 +382,7 @@ html, body {
 
     .underline:hover:after {
       width: 80%;
-      background: #c5edca;
+      background: #587059;
     }
   }
 
@@ -402,14 +403,14 @@ html, body {
     font-size: 25px;
   }
 
-  .landing-hero {
-    &::before {
-      background-image: url("../res/backdrop.jpg");
-      background-color: rgba(10, 10, 15, 0.7);
-      background-blend-mode: darken;
-      background-position: center top;
-    }
-  }
+  //.landing-hero {
+  //  &::before {
+  //    background-image: url("../res/backdrop.jpg");
+  //    background-color: rgba(10, 10, 15, 0.7);
+  //    background-blend-mode: darken;
+  //    background-position: center top;
+  //  }
+  //}
 
   .spacer-vertical {
     flex: 1 100%;
