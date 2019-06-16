@@ -1,4 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Kanit&display=swap');
+@font-face {
+  font-family: 'lemon-milk';
+  font-style: normal;
+  font-weight: bold;
+  src: url("/font/LemonMilkbold.eot"); /* IE9 Compat Modes */
+  src: url("/font/LemonMilkbold.eot") format("embedded-opentype"), /* IE6-IE8 */
+  url("/font/LemonMilkbold.woff") format("woff"), /* Modern Browsers */
+  url("/font/LemonMilkbold.ttf")  format("truetype"), /* Safari, Android, iOS */
+  url("/font/LemonMilkbold.svg") format("svg"); /* Legacy iOS */
+}
 
 :root {
   --text-select-color: rgba(100, 100, 100, 0.7);
@@ -106,8 +116,9 @@ html, body {
 }
 
 .hackathon-name {
-  font-weight: bolder;
-  font-size: 60px;
+  font-family: lemon-milk, serif;
+  font-weight: bold;
+  font-size: 55px;
   letter-spacing: 2px;
   line-height: 75px;
   text-indent: -15px;

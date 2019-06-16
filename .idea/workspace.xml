@@ -2,11 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49be8fdd-768b-4fd7-b21a-71661dd3785a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/font/LemonMilkbold.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/font/LemonMilkbold.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/font/LemonMilkbold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/font/LemonMilkbold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/robots.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/content.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/content.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/content.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/content.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/content.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/content.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/views/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/views/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -31,8 +37,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/views/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="69" selection-start-line="6" selection-start-column="69" selection-end-line="6" selection-end-column="69" />
+            <state relative-caret-position="119">
+              <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="31" column="19" lean-forward="true" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -54,10 +69,15 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/css/content.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="217" column="27" selection-start-line="217" selection-start-column="27" selection-end-line="217" selection-end-column="27" />
+            <state relative-caret-position="204">
+              <caret line="76" column="11" lean-forward="true" selection-start-line="76" selection-start-column="11" selection-end-line="76" selection-end-column="11" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/robots.txt">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -120,7 +140,6 @@
         <option value="$PROJECT_DIR$/cloudbuild.yaml" />
         <option value="$PROJECT_DIR$/public/javascript/conten.js" />
         <option value="$PROJECT_DIR$/public/sitemap.xml" />
-        <option value="$PROJECT_DIR$/server.js" />
         <option value="$PROJECT_DIR$/public/views/register.html" />
         <option value="$PROJECT_DIR$/public/views/event-schedule.html" />
         <option value="$PROJECT_DIR$/public/css/event-schedule.scss" />
@@ -129,6 +148,7 @@
         <option value="$PROJECT_DIR$/public/javascript/content.js" />
         <option value="$PROJECT_DIR$/public/views/content.html" />
         <option value="$PROJECT_DIR$/public/views/index.html" />
+        <option value="$PROJECT_DIR$/server.js" />
         <option value="$PROJECT_DIR$/public/css/content.scss" />
       </list>
     </option>
@@ -167,6 +187,12 @@
               <item name="Hackathon_GenHacks" type="b2602c69:ProjectViewProjectNode" />
               <item name="Hackathon_GenHacks" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="font" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Hackathon_GenHacks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hackathon_GenHacks" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
               <item name="javascript" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -193,13 +219,14 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="10.15.3" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/res" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/font" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Ethan\Desktop\Transfer_To_USB\SchoolWork\SchoolYear_2019-2020\Hackathon_GenHacks\public\font" />
       <recent name="C:\Users\Ethan\Desktop\Transfer_To_USB\SchoolWork\SchoolYear_2019-2020\Hackathon_GenHacks\public\res" />
       <recent name="C:\Users\Ethan\Desktop\Transfer_To_USB\SchoolWork\SchoolYear_2019-2020\Hackathon_GenHacks\public" />
     </key>
@@ -240,7 +267,7 @@
       <updated>1560411487650</updated>
       <workItem from="1560411488876" duration="7005000" />
       <workItem from="1560453473575" duration="53253000" />
-      <workItem from="1560629858912" duration="2108000" />
+      <workItem from="1560629858912" duration="5986000" />
     </task>
     <task id="LOCAL-00001" summary="Added parallax to home page">
       <created>1560465694741</created>
@@ -319,22 +346,29 @@
       <option name="project" value="LOCAL" />
       <updated>1560586708261</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Inverted theme colors (bg and fg)">
+      <created>1560648189285</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1560648189286</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62366000" />
+    <option name="totallyTimeSpent" value="66244000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1472" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24947736" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24947736" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3297587" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3297587" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3297587" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -422,7 +456,8 @@
     <MESSAGE value="About to restructure to prevent too many html files" />
     <MESSAGE value="legacy maps" />
     <MESSAGE value="Updated gMaps and FAQ section" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated gMaps and FAQ section" />
+    <MESSAGE value="Inverted theme colors (bg and fg)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Inverted theme colors (bg and fg)" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app.yaml">
@@ -490,13 +525,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="42" column="5" lean-forward="true" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/views/register.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -516,17 +544,27 @@
     <entry file="file://$PROJECT_DIR$/public/views/plantsbackdrop.html" />
     <entry file="file://$PROJECT_DIR$/public/views/event-schedule.html" />
     <entry file="file://$PROJECT_DIR$/public/css/event-schedule.scss" />
-    <entry file="file://$PROJECT_DIR$/public/views/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="69" selection-start-line="6" selection-start-column="69" selection-end-line="6" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/javascript/content.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/views/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/robots.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="31" column="19" lean-forward="true" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -544,8 +582,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/css/content.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="217" column="27" selection-start-line="217" selection-start-column="27" selection-end-line="217" selection-end-column="27" />
+        <state relative-caret-position="204">
+          <caret line="76" column="11" lean-forward="true" selection-start-line="76" selection-start-column="11" selection-end-line="76" selection-end-column="11" />
         </state>
       </provider>
     </entry>

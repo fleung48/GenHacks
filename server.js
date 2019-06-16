@@ -28,6 +28,12 @@ app.get(
 });
 
 app.get(
+    ['/robots.txt', '/robot.txt'],
+    (req, res) => {
+   res.sendFile(path.join(__dirname, 'public/robots.txt'));
+});
+
+app.get(
     ['/site.webmanifest', '/favicon.ico', '/android-chrome-512x512.png', '/android-chrome-192x192.png', '/apple-touch-icon.png', '/favicon-16x16.png', '/favicon-32x32.png'],
     (req, res) => {
     if(isLocal) {
