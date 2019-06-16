@@ -284,6 +284,10 @@ html, body {
   text-align: center;
 }
 
+.about-us-container {
+  text-align: center;
+}
+
 @media only screen and (min-width: 768px) {
   .copyright-notice {
     font-size: 0.55em;
@@ -439,6 +443,10 @@ html, body {
 
   .stay-together {
     display: unset;
+  }
+
+  .about-us-container {
+    padding: 0 9vw;
   }
 }
 
