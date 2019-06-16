@@ -6,19 +6,7 @@
       <change beforePath="$PROJECT_DIR$/public/css/content.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/content.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/content.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/content.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/content.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/content.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/event-schedule.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/event-schedule.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/event-schedule.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/faq.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/faq.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/faq.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/index.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/javascript/content.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/javascript/content.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/views/content.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/views/content.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/views/event-schedule.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/views/faq.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/views/plantsbackdrop.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/views/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/views/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -34,34 +22,40 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/javascript/content.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="401">
-              <caret line="51" column="41" selection-start-line="51" selection-start-column="41" selection-end-line="51" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/views/content.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
-              <caret line="118" column="32" selection-start-line="118" selection-start-column="32" selection-end-line="118" selection-end-column="32" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#head#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-              </folding>
+            <state relative-caret-position="170">
+              <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/views/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="69" selection-start-line="6" selection-start-column="69" selection-end-line="6" selection-end-column="69" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/views/content.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="157" column="23" selection-start-line="157" selection-start-column="23" selection-end-line="157" selection-end-column="23" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#head#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/css/content.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="234" column="14" selection-start-line="234" selection-start-column="14" selection-end-line="234" selection-end-column="14" />
-              <folding>
-                <element signature="e#1617#1774#0" />
-                <element signature="e#3078#5399#0" />
-              </folding>
+            <state relative-caret-position="208">
+              <caret line="217" column="27" selection-start-line="217" selection-start-column="27" selection-end-line="217" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -78,14 +72,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>split tuesday</find>
-      <find>font</find>
-      <find>label-time</find>
-      <find>label-event</find>
-      <find>split-label&quot;</find>
-      <find>border</find>
-      <find>day-container</find>
-      <find>event</find>
       <find>Oswald</find>
       <find>family</find>
       <find>vh</find>
@@ -108,6 +94,14 @@
       <find>font-size</find>
       <find>font-famil</find>
       <find>table-con</find>
+      <find>300</find>
+      <find>mapouter</find>
+      <find>250</find>
+      <find>header</find>
+      <find>.qa-container</find>
+      <find>sub</find>
+      <find>.faq</find>
+      <find>.qa</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -126,7 +120,6 @@
         <option value="$PROJECT_DIR$/cloudbuild.yaml" />
         <option value="$PROJECT_DIR$/public/javascript/conten.js" />
         <option value="$PROJECT_DIR$/public/sitemap.xml" />
-        <option value="$PROJECT_DIR$/public/views/index.html" />
         <option value="$PROJECT_DIR$/server.js" />
         <option value="$PROJECT_DIR$/public/views/register.html" />
         <option value="$PROJECT_DIR$/public/views/event-schedule.html" />
@@ -134,8 +127,9 @@
         <option value="$PROJECT_DIR$/public/views/faq.html" />
         <option value="$PROJECT_DIR$/public/views/plantsbackdrop.html" />
         <option value="$PROJECT_DIR$/public/javascript/content.js" />
-        <option value="$PROJECT_DIR$/public/css/content.scss" />
         <option value="$PROJECT_DIR$/public/views/content.html" />
+        <option value="$PROJECT_DIR$/public/views/index.html" />
+        <option value="$PROJECT_DIR$/public/css/content.scss" />
       </list>
     </option>
   </component>
@@ -245,7 +239,8 @@
       <option name="presentableId" value="Default" />
       <updated>1560411487650</updated>
       <workItem from="1560411488876" duration="7005000" />
-      <workItem from="1560453473575" duration="48921000" />
+      <workItem from="1560453473575" duration="53253000" />
+      <workItem from="1560629858912" duration="2108000" />
     </task>
     <task id="LOCAL-00001" summary="Added parallax to home page">
       <created>1560465694741</created>
@@ -310,11 +305,25 @@
       <option name="project" value="LOCAL" />
       <updated>1560578300404</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="legacy maps">
+      <created>1560583702760</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1560583702760</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Updated gMaps and FAQ section">
+      <created>1560586708261</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1560586708261</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55926000" />
+    <option name="totallyTimeSpent" value="62366000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1472" height="878" extended-state="6" />
@@ -386,6 +395,20 @@
         </entry>
       </map>
     </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added parallax to home page" />
@@ -397,7 +420,9 @@
     <MESSAGE value="Fixed Schedule table for both web &amp; mobile" />
     <MESSAGE value="Changed to a green theme and fixed schedule format" />
     <MESSAGE value="About to restructure to prevent too many html files" />
-    <option name="LAST_COMMIT_MESSAGE" value="About to restructure to prevent too many html files" />
+    <MESSAGE value="legacy maps" />
+    <MESSAGE value="Updated gMaps and FAQ section" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated gMaps and FAQ section" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app.yaml">
@@ -479,16 +504,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/faq.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/views/faq.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/faq.scss" />
+    <entry file="file://$PROJECT_DIR$/public/views/faq.html" />
     <entry file="file://$PROJECT_DIR$/public/css/index.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -496,60 +513,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/views/plantsbackdrop.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/views/event-schedule.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="61" column="10" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="61" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/event-schedule.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="17" column="1" lean-forward="true" selection-end-line="112" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/public/views/plantsbackdrop.html" />
+    <entry file="file://$PROJECT_DIR$/public/views/event-schedule.html" />
+    <entry file="file://$PROJECT_DIR$/public/css/event-schedule.scss" />
     <entry file="file://$PROJECT_DIR$/public/views/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+        <state relative-caret-position="102">
+          <caret line="6" column="69" selection-start-line="6" selection-start-column="69" selection-end-line="6" selection-end-column="69" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/javascript/content.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="51" column="41" selection-start-line="51" selection-start-column="41" selection-end-line="51" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/content.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="234" column="14" selection-start-line="234" selection-start-column="14" selection-end-line="234" selection-end-column="14" />
-          <folding>
-            <element signature="e#1617#1774#0" />
-            <element signature="e#3078#5399#0" />
-          </folding>
+        <state relative-caret-position="170">
+          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/views/content.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="118" column="32" selection-start-line="118" selection-start-column="32" selection-end-line="118" selection-end-column="32" />
+        <state relative-caret-position="544">
+          <caret line="157" column="23" selection-start-line="157" selection-start-column="23" selection-end-line="157" selection-end-column="23" />
           <folding>
             <element signature="n#style#0;n#div#0;n#head#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/content.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="217" column="27" selection-start-line="217" selection-start-column="27" selection-end-line="217" selection-end-column="27" />
         </state>
       </provider>
     </entry>
