@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49be8fdd-768b-4fd7-b21a-71661dd3785a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/res/portraits/ethan_zhang.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/sitemap.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/content.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/content.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/content.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/content.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/content.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/content.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/views/content.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/views/content.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,13 +32,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/views/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+            <state relative-caret-position="-4">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="191">
@@ -47,22 +50,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/views/content.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="112">
+              <caret line="322" lean-forward="true" selection-start-line="322" selection-end-line="322" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#head#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/css/content.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="431" column="3" lean-forward="true" selection-start-line="431" selection-start-column="3" selection-end-line="431" selection-end-column="3" />
+            <state relative-caret-position="5236">
+              <caret line="308" column="21" selection-start-line="308" selection-start-column="21" selection-end-line="308" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -88,16 +91,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>family</find>
-      <find>vh</find>
-      <find>container</find>
-      <find>background</find>
-      <find>act</find>
-      <find>unse</find>
-      <find>.tabl</find>
-      <find>spacer-vertical</find>
-      <find>text-align</find>
-      <find>head</find>
       <find>headline</find>
       <find>name</find>
       <find>margin: 0</find>
@@ -112,12 +105,22 @@
       <find>300</find>
       <find>mapouter</find>
       <find>250</find>
-      <find>header</find>
       <find>.qa-container</find>
       <find>sub</find>
-      <find>.qa</find>
       <find>.table-co</find>
       <find>.faq</find>
+      <find>.split-labe</find>
+      <find>time</find>
+      <find>header</find>
+      <find>CEO and CFO and CTO</find>
+      <find>a</find>
+      <find>a{</find>
+      <find>faq</find>
+      <find>.qa</find>
+      <find>BayHack</find>
+      <find>about-con</find>
+      <find>Technician</find>
+      <find>flex</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -142,11 +145,11 @@
         <option value="$PROJECT_DIR$/public/views/plantsbackdrop.html" />
         <option value="$PROJECT_DIR$/public/javascript/content.js" />
         <option value="$PROJECT_DIR$/public/views/index.html" />
-        <option value="$PROJECT_DIR$/public/views/content.html" />
-        <option value="$PROJECT_DIR$/public/css/content.scss" />
         <option value="$PROJECT_DIR$/public/robots.txt" />
         <option value="$PROJECT_DIR$/public/sitemap.xml" />
         <option value="$PROJECT_DIR$/server.js" />
+        <option value="$PROJECT_DIR$/public/views/content.html" />
+        <option value="$PROJECT_DIR$/public/css/content.scss" />
       </list>
     </option>
   </component>
@@ -196,6 +199,13 @@
               <item name="Hackathon_GenHacks" type="b2602c69:ProjectViewProjectNode" />
               <item name="Hackathon_GenHacks" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+              <item name="portraits" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Hackathon_GenHacks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hackathon_GenHacks" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -210,13 +220,14 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="10.15.3" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/font" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/res/portraits" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Ethan\Desktop\Transfer_To_USB\SchoolWork\SchoolYear_2019-2020\Hackathon_GenHacks\public\res\portraits" />
       <recent name="C:\Users\Ethan\Desktop\Transfer_To_USB\SchoolWork\SchoolYear_2019-2020\Hackathon_GenHacks\public\font" />
       <recent name="C:\Users\Ethan\Desktop\Transfer_To_USB\SchoolWork\SchoolYear_2019-2020\Hackathon_GenHacks\public\res" />
       <recent name="C:\Users\Ethan\Desktop\Transfer_To_USB\SchoolWork\SchoolYear_2019-2020\Hackathon_GenHacks\public" />
@@ -258,7 +269,7 @@
       <updated>1560411487650</updated>
       <workItem from="1560411488876" duration="7005000" />
       <workItem from="1560453473575" duration="53253000" />
-      <workItem from="1560629858912" duration="8050000" />
+      <workItem from="1560629858912" duration="15035000" />
     </task>
     <task id="LOCAL-00001" summary="Added parallax to home page">
       <created>1560465694741</created>
@@ -358,22 +369,29 @@
       <option name="project" value="LOCAL" />
       <updated>1560655892261</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Fixed sitemap.xml response header">
+      <created>1560656363520</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1560656363520</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68308000" />
+    <option name="totallyTimeSpent" value="75293000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1472" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24947736" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24947736" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3297587" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3297587" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3297587" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -464,7 +482,8 @@
     <MESSAGE value="Inverted theme colors (bg and fg)" />
     <MESSAGE value="Changed font for hackathon name" />
     <MESSAGE value="Updated spacing, sitemap, robots.txt" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated spacing, sitemap, robots.txt" />
+    <MESSAGE value="Fixed sitemap.xml response header" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed sitemap.xml response header" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app.yaml">
@@ -551,32 +570,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/views/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/content.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="431" column="3" lean-forward="true" selection-start-line="431" selection-start-column="3" selection-end-line="431" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/views/content.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#head#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/robots.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -591,10 +584,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/views/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/res/portraits/ethan_zhang.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/server.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="191">
           <caret line="26" column="54" lean-forward="true" selection-start-line="26" selection-start-column="54" selection-end-line="26" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/views/content.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="322" lean-forward="true" selection-start-line="322" selection-end-line="322" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#head#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/content.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5236">
+          <caret line="308" column="21" selection-start-line="308" selection-start-column="21" selection-end-line="308" selection-end-column="21" />
         </state>
       </provider>
     </entry>

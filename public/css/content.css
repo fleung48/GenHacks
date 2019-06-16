@@ -13,7 +13,7 @@
 }
 
 html, body {
-  font-family: "Kanit", sans-serif;
+  font-family: "Comic Sans MS", cursive, sans-serif;
   overflow-x: hidden;
   height: 100%;
   padding: 0;
@@ -139,7 +139,7 @@ html, body {
 
 .header {
   flex: 1 100%;
-  font-size: 1.2em;
+  font-size: 50px;
 }
 
 .label-day {
@@ -220,6 +220,7 @@ html, body {
 }
 
 .answer {
+  text-align: left;
   width: 100%;
   font-size: 0.35em;
   color: #0c0c0c;
@@ -238,10 +239,6 @@ html, body {
   flex-direction: column;
 }
 
-#header-faq {
-  font-size: 1em;
-}
-
 .copyright-notice {
   font-family: serif;
   font-size: 0.5em;
@@ -252,6 +249,40 @@ html, body {
 .section-spacer {
   display: block;
   height: 75px;
+}
+
+.about-container {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.person-container {
+  width: 160px;
+  height: fit-content;
+  padding: 0 5px;
+}
+
+.person-portrait {
+  width: 100%;
+  height: 190px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.person-name {
+  font-size: 0.55em;
+  font-weight: bold;
+}
+
+.person-role {
+  font-size: 0.45em;
+}
+
+.sponsors-container {
+  display: flex;
+  text-align: center;
 }
 
 @media only screen and (min-width: 768px) {
@@ -391,6 +422,7 @@ html, body {
 
   .qa-container {
     min-height: 100px;
+    margin: 6px;
   }
 
   .mapouter {
@@ -400,16 +432,17 @@ html, body {
     height: 250px;
     width: 100%;
   }
-  .mapouter a {
-    display: none;
-  }
-
-  #header-faq {
-    padding-bottom: 10px;
-  }
 
   .section-spacer {
     height: 85px;
+  }
+
+  .faq-container {
+    padding: 0 9vw;
+  }
+
+  .about-container {
+    padding: 0 9vw;
   }
 }
 
