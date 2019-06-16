@@ -7,7 +7,7 @@ const isLocal = process.env.NODE_ENV == null && process.env.NODE_ENV !== 'produc
 
 console.log("is local? " + isLocal);
 
-const server = app.listen(process.env.PORT || 3000, function () {
+const server = app.listen(process.env.PORT || 3001, function () {
     console.log('Listening on port ' + server.address().port);
 });
 
