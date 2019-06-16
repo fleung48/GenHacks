@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49be8fdd-768b-4fd7-b21a-71661dd3785a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/font/LemonMilkbold.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/font/LemonMilkbold.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/font/LemonMilkbold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/font/LemonMilkbold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/robots.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/content.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/content.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/content.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/content.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/content.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/content.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/views/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/views/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/sitemap.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -43,11 +35,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="31" column="19" lean-forward="true" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+            <state relative-caret-position="191">
+              <caret line="26" column="54" lean-forward="true" selection-start-line="26" selection-start-column="54" selection-end-line="26" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -55,8 +47,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/views/content.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="157" column="23" selection-start-line="157" selection-start-column="23" selection-end-line="157" selection-end-column="23" />
+            <state relative-caret-position="323">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#head#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
@@ -66,18 +58,22 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/css/content.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="76" column="11" lean-forward="true" selection-start-line="76" selection-start-column="11" selection-end-line="76" selection-end-column="11" />
+            <state relative-caret-position="234">
+              <caret line="431" column="3" lean-forward="true" selection-start-line="431" selection-start-column="3" selection-end-line="431" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/robots.txt">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/public/sitemap.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="69" selection-start-line="5" selection-start-column="69" selection-end-line="5" selection-end-column="69" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -92,7 +88,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Oswald</find>
       <find>family</find>
       <find>vh</find>
       <find>container</find>
@@ -120,8 +115,9 @@
       <find>header</find>
       <find>.qa-container</find>
       <find>sub</find>
-      <find>.faq</find>
       <find>.qa</find>
+      <find>.table-co</find>
+      <find>.faq</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -139,17 +135,18 @@
         <option value="$PROJECT_DIR$/public/css/index.scss" />
         <option value="$PROJECT_DIR$/cloudbuild.yaml" />
         <option value="$PROJECT_DIR$/public/javascript/conten.js" />
-        <option value="$PROJECT_DIR$/public/sitemap.xml" />
         <option value="$PROJECT_DIR$/public/views/register.html" />
         <option value="$PROJECT_DIR$/public/views/event-schedule.html" />
         <option value="$PROJECT_DIR$/public/css/event-schedule.scss" />
         <option value="$PROJECT_DIR$/public/views/faq.html" />
         <option value="$PROJECT_DIR$/public/views/plantsbackdrop.html" />
         <option value="$PROJECT_DIR$/public/javascript/content.js" />
-        <option value="$PROJECT_DIR$/public/views/content.html" />
         <option value="$PROJECT_DIR$/public/views/index.html" />
-        <option value="$PROJECT_DIR$/server.js" />
+        <option value="$PROJECT_DIR$/public/views/content.html" />
         <option value="$PROJECT_DIR$/public/css/content.scss" />
+        <option value="$PROJECT_DIR$/public/robots.txt" />
+        <option value="$PROJECT_DIR$/public/sitemap.xml" />
+        <option value="$PROJECT_DIR$/server.js" />
       </list>
     </option>
   </component>
@@ -182,12 +179,6 @@
               <item name="Hackathon_GenHacks" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Hackathon_GenHacks" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hackathon_GenHacks" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="font" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Hackathon_GenHacks" type="b2602c69:ProjectViewProjectNode" />
@@ -267,7 +258,7 @@
       <updated>1560411487650</updated>
       <workItem from="1560411488876" duration="7005000" />
       <workItem from="1560453473575" duration="53253000" />
-      <workItem from="1560629858912" duration="5986000" />
+      <workItem from="1560629858912" duration="8050000" />
     </task>
     <task id="LOCAL-00001" summary="Added parallax to home page">
       <created>1560465694741</created>
@@ -353,11 +344,25 @@
       <option name="project" value="LOCAL" />
       <updated>1560648189286</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Changed font for hackathon name">
+      <created>1560654317151</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1560654317151</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Updated spacing, sitemap, robots.txt">
+      <created>1560655892261</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1560655892261</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66244000" />
+    <option name="totallyTimeSpent" value="68308000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1472" height="878" extended-state="6" />
@@ -368,7 +373,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3297587" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3297587" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3297587" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -457,7 +462,9 @@
     <MESSAGE value="legacy maps" />
     <MESSAGE value="Updated gMaps and FAQ section" />
     <MESSAGE value="Inverted theme colors (bg and fg)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Inverted theme colors (bg and fg)" />
+    <MESSAGE value="Changed font for hackathon name" />
+    <MESSAGE value="Updated spacing, sitemap, robots.txt" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated spacing, sitemap, robots.txt" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app.yaml">
@@ -511,13 +518,6 @@
     <entry file="file://$PROJECT_DIR$/public/res/backdrop-mobile.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/sitemap.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="67" selection-start-line="5" selection-start-column="67" selection-end-line="5" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/javascript/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -558,20 +558,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/robots.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server.js">
+    <entry file="file://$PROJECT_DIR$/public/css/content.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="31" column="19" lean-forward="true" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+        <state relative-caret-position="234">
+          <caret line="431" column="3" lean-forward="true" selection-start-line="431" selection-start-column="3" selection-end-line="431" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/views/content.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="157" column="23" selection-start-line="157" selection-start-column="23" selection-end-line="157" selection-end-column="23" />
+        <state relative-caret-position="323">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
           <folding>
             <element signature="n#style#0;n#div#0;n#head#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
@@ -580,10 +577,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/content.scss">
+    <entry file="file://$PROJECT_DIR$/public/robots.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="76" column="11" lean-forward="true" selection-start-line="76" selection-start-column="11" selection-end-line="76" selection-end-column="11" />
+        <state>
+          <caret column="41" selection-start-column="41" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/sitemap.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="69" selection-start-line="5" selection-start-column="69" selection-end-line="5" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="26" column="54" lean-forward="true" selection-start-line="26" selection-start-column="54" selection-end-line="26" selection-end-column="54" />
         </state>
       </provider>
     </entry>

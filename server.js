@@ -24,6 +24,7 @@ app.get(
 app.get(
     ['/sitemap.xml', '/sitemap'],
     (req, res) => {
+        res.header("Content-Type", "application/xml");
     res.sendFile(path.join(__dirname, 'public/sitemap.xml'));
 });
 
