@@ -146,7 +146,8 @@ html, body {
   align-items: center;
   align-content: flex-start;
   height: fit-content;
-  padding: 75px 15px 0px 15px;
+  //padding: 75px 15px 0px 15px;
+  padding: 0 15px;
   //background-color: rgb(225, 225, 225);
   //background-color:   #d8f3dc;
   font-size: 50px;
@@ -218,7 +219,8 @@ html, body {
   text-align: center;
   font-size: 50px;
   display: flex;
-  padding: 10px 15px 100px 15px;
+  padding: 0 15px;
+  //padding: 10px 15px 100px 15px;
   flex-wrap: wrap;
 }
 
@@ -244,7 +246,7 @@ html, body {
 }
 
 .mapouter {
-  display: none;
+  //display: none;
 }
 
 .gmap_canvas {
@@ -269,6 +271,11 @@ html, body {
   font-size: 0.5em;
   text-align: center;
   padding-bottom: 1px;
+}
+
+.section-spacer{
+  display: block;
+  height: 75px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -371,10 +378,7 @@ html, body {
     height: 100px;
   }
   .table-container {
-    //padding-top: 100px;
     text-align: center;
-    padding: 100px 15px;
-    //align-content: flex-start;
   }
   .spacer {
     flex: 1 calc(20% / 3);
@@ -425,5 +429,9 @@ html, body {
 
   #header-faq{
     padding-bottom: 10px;
+  }
+
+  .section-spacer{
+    height: 85px;
   }
 }
