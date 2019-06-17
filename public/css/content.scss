@@ -13,6 +13,12 @@
 
 :root {
   --text-select-color: rgba(100, 100, 100, 0.7);
+  --overall-background-color: #b0ebb5;
+  --text-font-color: #393939;
+}
+
+div{
+  color: var(--text-font-color);
 }
 
 .stay-together{
@@ -27,7 +33,8 @@ html, body {
   height: 100%;
   padding: 0;
   margin: 0;
-  background-color: #77dd77;
+  //background-color: #77dd77;
+  background-color: var(--overall-background-color);
 }
 
 .container {
@@ -67,13 +74,13 @@ html, body {
   font-size: 34px;
 
   a {
-    color: #121812;
+    color: var(--text-font-color);;
     text-decoration: none;
 
   }
 
   a:hover {
-    color: #4d6d4d;
+    color: #686868;
   }
 
   .underline {
@@ -85,7 +92,7 @@ html, body {
 .headline {
   opacity: 0;
   //color: white;
-  color: #041809;
+  color:  var(--text-font-color);;
   padding-left: 15px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
@@ -138,13 +145,13 @@ html, body {
   position: absolute;
   content: '';
   height: 2px;
-  bottom: -0px;
+  bottom: -2px;
 
   margin: 0 auto;
   left: 0;
   right: 0;
   width: 90%;
-  background: #1e241e;
+  background: var(--text-font-color);;
 }
 
 .table-container {
@@ -165,6 +172,12 @@ html, body {
   flex: 1 100%;
   font-size: 50px;
 }
+
+.header-two{
+  flex: 1 100%;
+  font-size: 30px;
+};
+
 
 .label-day {
   flex: 1 100%;
@@ -206,18 +219,18 @@ html, body {
   flex: 1 50%;
 }
 
-.event:after {
-  position: absolute;
-  content: '';
-  height: 2px;
-  display: inline-table;
-  bottom: -0px;
-  margin: 0 auto;
-  left: 0;
-  right: 0;
-  width: 75%;
-  background-color: rgb(150, 150, 150);
-}
+//.event:after {
+//  position: absolute;
+//  content: '';
+//  height: 2px;
+//  display: inline-table;
+//  bottom: -0px;
+//  margin: 0 auto;
+//  left: 0;
+//  right: 0;
+//  width: 75%;
+//  background-color: rgb(150, 150, 150);
+//}
 
 #loadOverlay {
   display: none;
@@ -237,9 +250,9 @@ html, body {
   margin: 4px;
   //background-color: white;
   background-color: #D8F6C3;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  border-radius: 4px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
 }
 
 .question{
@@ -249,9 +262,11 @@ html, body {
 
 .answer{
   text-align: left;
-  width: 100%;
+  //width: 100%;
   font-size: 0.35em;
-  color: #0c0c0c;
+  //margin: 4px;
+  padding: 12px;
+  color:  var(--text-font-color);;
 }
 
 .mapouter {
@@ -272,9 +287,12 @@ html, body {
 }
 
 .copyright-notice{
+  z-index: 1000;
+  color: black;
   padding: 10px;
   font-size: 0.5em;
   text-align: center;
+  font-weight: bold;
 }
 
 .section-spacer{
@@ -292,7 +310,7 @@ html, body {
 .person-container{
   width: 160px;
   height: fit-content;
-  padding: 0 5px;
+  padding: 0 5px 5px 5px;
 }
 
 .person-portrait{
@@ -320,7 +338,35 @@ html, body {
   text-align: center;
 }
 
+.hackathon-logo{
+  display: none;
+}
+
+.bottom-bar{
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  i{
+    padding: 5px;
+  }
+  a{
+    color:unset;
+    text-decoration: none;
+  }
+}
+
+.not-an-actual-class {float:left;}
+
+#header-faq{
+  padding-bottom: 8px;
+}
+
 @media only screen and (min-width: 768px) {
+  #header-faq{
+    padding-bottom: 20px;
+  }
+
   .copyright-notice{
     font-size: 0.55em;
   }
@@ -328,14 +374,21 @@ html, body {
     align-items: center;
   }
 
-  .scroll-down {
+  .scroll-down{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .scroll-down-display {
     border: solid rgb(78, 78, 78);
     border-width: 0 2.5px 2.5px 0;
-    display: inline-block;
-    width: 7px;
-    height: 7px;
-    position: relative;
-    top: -2.4px;
+    //display: inline-block;
+    width: 15px;
+    height: 15px;
+    position: absolute;
 
     -webkit-transform: rotate(45deg);
     -moz-transform: rotate(45deg);
@@ -347,9 +400,9 @@ html, body {
   .container-arrow {
     display: unset;
     font-size: 15px;
-    color: rgb(19, 19, 19);
-    position: relative;
-    top: 26.1vh;
+    color:  var(--text-font-color);;
+    position: absolute;
+    top: 83vh;
   }
 
   .container-arrow:hover {
@@ -369,12 +422,12 @@ html, body {
       position: absolute;
       content: '';
       height: 2px;
-      bottom: -0px;
+      bottom: -2px;
 
       margin: 0 auto;
       left: 0;
       right: 0;
-      width: 40%;
+      width: 0;
 
       -o-transition: .5s;
       -ms-transition: .5s;
@@ -391,6 +444,7 @@ html, body {
 
   .headline {
     padding-left: 0;
+    z-index: 1000;
   }
 
   .hackathon-name {
@@ -442,22 +496,24 @@ html, body {
     flex: 1 100%;
     font-size: 0.9em;
     padding-bottom: 20px;
+    z-index:1000;
   }
   .event-name-container {
     padding-left: 0.4rem;
     justify-content: unset;
   }
-  .event:after {
-    margin: unset;
-  }
+  //.event:after {
+  //  margin: unset;
+  //}
 
   .subcontainer-faq{
     flex: 1 50%;
   }
 
   .qa-container{
+    z-index: 1000;
     min-height: 100px;
-    margin: 6px;
+    margin-bottom: 24px;
   }
   .mapouter{
     display: unset;
@@ -472,11 +528,11 @@ html, body {
   }
 
   .faq-container{
-    padding: 0 9vw;
+    padding: 0 14vw;
   }
 
   .about-container{
-    padding: 0 9vw;
+    padding: 0 14vw;
   }
 
   .stay-together{
@@ -484,20 +540,93 @@ html, body {
   }
 
   .about-us-container{
-    padding: 0 9vw;
+    display: flex;
+    flex-wrap: wrap;
+    z-index: 1000;
+    padding: 0 14vw;
   }
 
   .leaf-image{
     width:35px;
     height:35px;
     position:absolute;
-    background: url('/res/OrangeLeaf.PNG');
+    //background: url('/res/OrangeLeaf.PNG');
+    //background: url('/res/GreenLeaf.PNG');
+    background: url('/res/android-chrome-192x192.png');
     background-size: 100% 100%;
     z-index: 10;
     opacity: 0;
   }
 
-  .not-an-actual-class {float:none;}
-}
+  .hackathon-logo{
+    z-index: 2000;
+    height: 70px;
+    position: fixed;
+    top: 40px;
+    left: 40px;
+    display: flex;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background-color: var(--overall-background-color);
+    -webkit-box-shadow: 5px 5px 5px #86b386;
+    -moz-box-shadow: 5px 5px 5px #86b386;
+    box-shadow: 5px 5px 5px #86b386;
+  }
 
-.not-an-actual-class {float:left;}
+  .hackathon-logo:hover{
+    cursor: pointer;
+  }
+
+  .bottom-bar{
+    background-image: url('/res/footer.png');
+    background-position: center;
+    background-position-y: bottom;
+    padding-bottom: 20px;
+    a{
+      z-index: 1000;
+    }
+  }
+
+  .event-container {
+    z-index: 1000;
+  }
+
+  .text-content{
+    z-index:1000;
+  }
+
+  .header{
+    z-index:1000;
+  }
+
+  .header-two{
+    z-index: 1000;
+  }
+
+  .site-spacer{
+    height: 3vh;
+  }
+
+  .person-container{
+    z-index: 1000;
+  }
+
+  .question{
+    padding-bottom: 4px;
+  }
+
+  .left-faq{
+    .qa-container{
+      margin-right: 30px;
+    }
+  }
+
+  .right-faq {
+    .qa-container{
+      margin-left: 30px;
+    }
+  }
+
+    .not-an-actual-class {float:none;}
+}

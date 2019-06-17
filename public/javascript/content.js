@@ -4,12 +4,14 @@ $(".container-arrow").click(function(){
    }, 1500);
 });
 let isMobile = true;
+
+let all_leaves = [];
+
 function onLoad () {
    $(".headline").delay(250).animate({"opacity": "1"}, 1550);
 
    let retry_counter = 0;
    if(isMobile) retry_counter = 6;
-   let bottom =$(document).height();
 
    let retry_interval = setInterval(
        function(){
@@ -22,7 +24,7 @@ function onLoad () {
              clearInterval(retry_interval);
              // TweenLite.set(".leaf-image",{xPercent:"-50%",yPercent:"-50%"});
 
-             const total = 15;
+             const total = 5;
              let container = document.getElementById("leaf-container"), w = window.innerWidth;
              let h = window.innerHeight;
 
@@ -31,7 +33,7 @@ function onLoad () {
              for (i=0; i<total; i++){
                 setTimeout(function(){
                    makeLeaf();
-                }, R(0, 18000));
+                }, R(0, 30000));
              }
 
              function makeLeaf(){
@@ -45,10 +47,21 @@ function onLoad () {
                 setTimeout(function(){
                    animm(leaf_div);
                 }, 1000);
+                all_leaves.push(leaf_div);
+                if(all_leaves.length > 50){
+                   all_leaves[0].parentNode.removeChild(all_leaves[0]);
+                   all_leaves.shift();
+                }
              }
 
+             setInterval(function(){
+                if ( document.hasFocus() ) {
+                   makeLeaf();
+                }
+             }, R(2000,3000));
+
              function animm(elm){
-                TweenMax.to(elm,R(90,150),{y: (bottom)+'px',ease:Linear.easeNone,onComplete:function(){
+                TweenMax.to(elm,R(40,80),{y: ((+$(document).height())-65)+'px',ease:Linear.easeNone,onComplete:function(){
                      TweenMax.killTweensOf(elm);
                 }});
                 TweenMax.to(elm,R(4,8),{x:'+=100',rotationZ:R(-45,45),repeat:-1,yoyo:true,ease:Sine.easeInOut});
@@ -66,6 +79,11 @@ $(document).ready(function() {
    // run test on initial page load
    checkSize();
    // run test on resize of the window
+   $('#genhacks-logo').click(function(){
+      $('html,body').animate({
+         scrollTop: 0
+      }, 1000);
+   });
    $(window).resize(checkSize);
    onLoad();
 });
