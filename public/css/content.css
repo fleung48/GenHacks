@@ -447,6 +447,23 @@ html, body {
   .about-us-container {
     padding: 0 9vw;
   }
+
+  .leaf-image {
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    background: url("/res/OrangeLeaf.PNG");
+    background-size: 100% 100%;
+    z-index: 10;
+    opacity: 0;
+  }
+
+  .not-an-actual-class {
+    float: none;
+  }
+}
+.not-an-actual-class {
+  float: left;
 }
 
 /*# sourceMappingURL=content.css.map */
