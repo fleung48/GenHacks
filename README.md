@@ -1,1 +1,1 @@
-Site for GenHacks2019 
+`go.genhacks.tech`
