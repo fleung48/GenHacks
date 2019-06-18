@@ -55,11 +55,10 @@ app.get('/*', (req, res) => {
         } else if(err.code === 'ENOENT') {
             // file does not exist
             res.status(404);
-            res.json({error: "page does not exist"});
-            // console.log("page does not exist");
+            res.sendFile(path.join(__dirname, '/public/views/error.html'));
         } else {
-            res.status(404);
-            res.json({error: "page does not exist"});
+            res.status(500);
+            res.json({error: "Something broke on our end, please contact us at genhacks2019@gmail.com"});
             console.log("routes.js: trying to load page but got: " + err.code);
         }
     });

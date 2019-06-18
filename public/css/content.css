@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
 @import url("https://fonts.googleapis.com/css?family=PT+Sans|Rubik&display=swap");
 @font-face {
   font-family: "lemon-milk";
@@ -10,7 +9,7 @@
   /* Legacy iOS */
 }
 :root {
-  --text-select-color: rgba(100, 100, 100, 0.7);
+  --text-select-color: rgb(176, 235, 176);
   --overall-background-color: #b0ebb5;
   --text-font-color: #393939;
   --title-font: "PT Sans", sans-serif;
@@ -79,11 +78,11 @@ html, body {
   border-radius: 10px;
 }
 
-.headline::selection {
+::selection {
   background: var(--text-select-color);
 }
 
-.headline::-moz-selection {
+::-moz-selection {
   background: var(--text-select-color);
 }
 
@@ -516,6 +515,9 @@ html, body {
 
   .hackathon-logo:hover {
     cursor: pointer;
+    height: 72px;
+    top: 39px;
+    left: 39px;
   }
 
   .bottom-bar {

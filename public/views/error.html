@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>404 | Page not found!</title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-142125117-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'UA-142125117-1');
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=PT+Sans|Rubik&display=swap');
+        body, html{
+            margin: 0;
+            background-color: #b0ebb5;
+            color: #393939;
+        }
+        .container{
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            width: 100vw;
+            align-items: center;
+            justify-content: center;
+        }
+        .four-o-four-container{
+            font-family: 'Rubik', sans-serif;
+            font-size: 30px;
+            text-align: center;
+        }
+        .special{
+            padding-top: 10px;
+            font-size: 25px;
+        }
+        .big-four-o-four{
+            font-size: 80px;
+            padding-bottom: 40px;
+            letter-spacing: 8px;
+            font-family: 'PT Sans', sans-serif;
+        }
+        a:any-link{
+            color: #393939;
+        }
+        a:hover{
+            color: #6b6b6b;
+        }
+        .hackathon-logo{
+            height: 70px;
+            top: 40px;
+            left: 40px;
+            position: absolute;
+        }
+        .hackathon-logo:hover{
+            height: 72px;
+            cursor: pointer;
+            top: 39px;
+            left: 39px;
+        }
+    </style>
+</head>
+<body>
+    <a href="/"><img class="hackathon-logo" id="genhacks-logo" src="/res/finalgray.png"></a>
+    <div class="container">
+        <div class="big-four-o-four">404</div>
+        <div class="four-o-four-container">Oops we cannot <code>.find()</code> the page you requested. </div>
+        <div class="four-o-four-container special">
+            Perhaps you would like to <code>.peek()</code> our <a href="/">home page</a>?
+        </div>
+    </div>
+</body>
+</html>
