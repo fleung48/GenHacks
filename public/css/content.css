@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css?family=PT+Sans|Rubik&display=swap");
 @font-face {
   font-family: "lemon-milk";
   font-style: normal;
@@ -12,6 +13,8 @@
   --text-select-color: rgba(100, 100, 100, 0.7);
   --overall-background-color: #b0ebb5;
   --text-font-color: #393939;
+  --title-font: "PT Sans", sans-serif;
+  --text-font: "Rubik", sans-serif;
 }
 
 div {
@@ -23,7 +26,7 @@ div {
 }
 
 html, body {
-  font-family: "Lato", sans-serif;
+  font-family: var(--text-font);
   overflow-x: hidden;
   height: 100%;
   padding: 0;
@@ -55,7 +58,6 @@ html, body {
 }
 
 .hackathon-signup {
-  padding-top: 20px;
   margin-bottom: 4px;
   font-size: 34px;
 }
@@ -64,11 +66,8 @@ html, body {
   text-decoration: none;
 }
 .hackathon-signup a:hover {
-  color: #686868;
-}
-.hackathon-signup .underline {
-  text-decoration: none;
-  position: relative;
+  color: #252525;
+  background-color: rgba(126, 204, 131, 0.78);
 }
 
 .headline {
@@ -90,6 +89,8 @@ html, body {
 
 .actual-content {
   height: fit-content;
+  display: flex;
+  flex-direction: column;
 }
 
 .unselectable {
@@ -119,18 +120,6 @@ html, body {
   padding-bottom: 10px;
 }
 
-.underline:after {
-  position: absolute;
-  content: "";
-  height: 2px;
-  bottom: -2px;
-  margin: 0 auto;
-  left: 0;
-  right: 0;
-  width: 90%;
-  background: var(--text-font-color);
-}
-
 .table-container {
   display: flex;
   flex-wrap: wrap;
@@ -138,11 +127,12 @@ html, body {
   align-items: center;
   align-content: flex-start;
   height: fit-content;
-  padding: 0 15px;
+  padding: 0 14vw;
   font-size: 50px;
 }
 
 .header {
+  font-family: var(--title-font);
   flex: 1 100%;
   font-size: 50px;
 }
@@ -154,7 +144,7 @@ html, body {
 
 .label-day {
   flex: 1 100%;
-  font-size: 0.9em;
+  font-size: 0.7em;
 }
 
 .day-container {
@@ -179,6 +169,7 @@ html, body {
 }
 
 .event-name-container {
+  width: 10vw;
   text-align: center;
   display: flex;
   justify-content: center;
@@ -200,6 +191,12 @@ html, body {
   display: flex;
   padding: 0 15px;
   flex-wrap: wrap;
+}
+.faq-container a:any-link {
+  color: var(--text-font-color);
+}
+.faq-container a:hover {
+  color: #336b29;
 }
 
 .qa-container {
@@ -238,7 +235,7 @@ html, body {
 
 .copyright-notice {
   z-index: 1000;
-  color: black;
+  color: var(--text-font-color);
   padding: 10px;
   font-size: 0.5em;
   text-align: center;
@@ -266,6 +263,9 @@ html, body {
 .person-portrait {
   width: 100%;
   height: 190px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
   -o-object-fit: cover;
   object-fit: cover;
 }
@@ -292,6 +292,10 @@ html, body {
   display: none;
 }
 
+#header-about {
+  padding-bottom: 8px;
+}
+
 .bottom-bar {
   padding-bottom: 10px;
   display: flex;
@@ -312,6 +316,10 @@ html, body {
 
 #header-faq {
   padding-bottom: 8px;
+}
+
+.fab {
+  color: var(--footer-content-color);
 }
 
 @media only screen and (min-width: 768px) {
@@ -361,31 +369,23 @@ html, body {
     color: #4d4d4d;
   }
 
+  .person-portrait {
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+  }
+
   *.hackathon-signup {
-    padding-top: 45px;
+    margin-top: 70px;
   }
   *.hackathon-signup a {
+    background-color: #81d185c7;
+    padding: 8px 15px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
     letter-spacing: 0.4px;
-    font-size: 33px;
-  }
-  *.hackathon-signup .underline:after {
-    position: absolute;
-    content: "";
-    height: 2px;
-    bottom: -2px;
-    margin: 0 auto;
-    left: 0;
-    right: 0;
-    width: 0;
-    -o-transition: 0.5s;
-    -ms-transition: 0.5s;
-    -moz-transition: 0.5s;
-    -webkit-transition: 0.5s;
-    transition: 0.5s;
-  }
-  *.hackathon-signup .underline:hover:after {
-    width: 80%;
-    background: #587059;
+    font-size: 25px;
   }
 
   .headline {
@@ -421,7 +421,7 @@ html, body {
 
   .time {
     padding-right: 0.4rem;
-    text-align: right;
+    text-align: left;
   }
 
   .event {
@@ -432,11 +432,13 @@ html, body {
     flex: 1 40%;
     height: fit-content;
     align-self: flex-start;
+    margin-right: 3.8vw;
   }
 
   .label-day {
+    font-weight: bolder;
     flex: 1 100%;
-    font-size: 0.9em;
+    font-size: 0.55em;
     padding-bottom: 20px;
     z-index: 1000;
   }
@@ -474,6 +476,8 @@ html, body {
 
   .about-container {
     padding: 0 14vw;
+    align-self: center;
+    max-width: 900px;
   }
 
   .stay-together {
@@ -508,9 +512,6 @@ html, body {
     -moz-border-radius: 5px;
     border-radius: 5px;
     background-color: var(--overall-background-color);
-    -webkit-box-shadow: 5px 5px 5px #86b386;
-    -moz-box-shadow: 5px 5px 5px #86b386;
-    box-shadow: 5px 5px 5px #86b386;
   }
 
   .hackathon-logo:hover {
@@ -520,8 +521,7 @@ html, body {
   .bottom-bar {
     background-image: url("/res/footer.png");
     background-position: center;
-    background-position-y: bottom;
-    padding-bottom: 20px;
+    padding-bottom: 45px;
   }
   .bottom-bar a {
     z-index: 1000;
@@ -532,6 +532,8 @@ html, body {
   }
 
   .text-content {
+    font-size: 25px;
+    padding-bottom: 30px;
     z-index: 1000;
   }
 
@@ -541,6 +543,7 @@ html, body {
 
   .header-two {
     z-index: 1000;
+    padding-bottom: 10px;
   }
 
   .site-spacer {
@@ -549,6 +552,7 @@ html, body {
 
   .person-container {
     z-index: 1000;
+    padding: 5px 10px 10px 10px;
   }
 
   .question {
@@ -561,6 +565,31 @@ html, body {
 
   .right-faq .qa-container {
     margin-left: 30px;
+  }
+
+  #header-about {
+    padding-bottom: 12px;
+  }
+
+  #about-header {
+    padding-bottom: 10px;
+  }
+
+  .spacer-horizontal {
+    flex: 1 20%;
+  }
+
+  .split-label {
+    display: flex;
+  }
+
+  .time-container {
+    flex: 1 50%;
+  }
+
+  #tuesday-container {
+    margin-right: unset;
+    margin-left: 3.8vw;
   }
 
   .not-an-actual-class {

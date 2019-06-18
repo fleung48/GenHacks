@@ -49,8 +49,7 @@ function onLoad () {
                 }, 1000);
                 all_leaves.push(leaf_div);
                 if(all_leaves.length > 50){
-                   all_leaves[0].parentNode.removeChild(all_leaves[0]);
-                   all_leaves.shift();
+                   rem(all_leaves[0]);
                 }
              }
 
@@ -60,8 +59,10 @@ function onLoad () {
                 }
              }, R(2000,3000));
 
+
+
              function animm(elm){
-                TweenMax.to(elm,R(40,80),{y: ((+$(document).height())-65)+'px',ease:Linear.easeNone,onComplete:function(){
+                TweenMax.to(elm,R(40,80),{y: ((+$(document).height())-55)+'px',ease:Linear.easeNone,onComplete:function(){
                      TweenMax.killTweensOf(elm);
                 }});
                 TweenMax.to(elm,R(4,8),{x:'+=100',rotationZ:R(-45,45),repeat:-1,yoyo:true,ease:Sine.easeInOut});
@@ -88,9 +89,24 @@ $(document).ready(function() {
    onLoad();
 });
 
+function rem(elm){
+   $(elm).animate({"opacity": "0"}, 1999); // 2000 may overlap the second spawn
+   $(elm).promise().done(function(){
+      elm.parentNode.removeChild(elm);
+      all_leaves.shift();
+   });
+}
+
 //Function to the css rule
 function checkSize(){
+   let doc_height = $(document).height();
    isMobile = $(".not-an-actual-class").css("float") === "none";
+   for (let i = 0; i < all_leaves.length; i++) {
+      if(all_leaves[i].getAttribute('removing') == null){
+         all_leaves[i].setAttribute('removing', true);
+         rem(all_leaves[i]);
+      }
+   }
 }
 
 //TODO: do the blur thing
