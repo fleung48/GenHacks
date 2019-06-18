@@ -281,6 +281,7 @@ html, body {
 .sponsors-container {
   display: flex;
   text-align: center;
+  flex-direction: column;
 }
 
 .about-us-container {
