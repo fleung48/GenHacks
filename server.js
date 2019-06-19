@@ -43,6 +43,12 @@ app.get(
     res.sendFile(path.join(__dirname, 'public/res/' + req.path.split('/')[1]));
 });
 
+app.get(
+    ['/sponsorship-prospectus', 'sponsor-us'],
+    (req, res) =>{
+        res.sendFile(path.join(__dirname, 'public/views/sponsorship-prospectus.html'));
+    }
+);
 
 app.get('/*', (req, res) => {
     if(isLocal){

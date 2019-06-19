@@ -132,6 +132,12 @@ html, body {
   display: none;
 }
 
+.give-us-sponsors{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 
 .hackathon-time {
   font-size: 23px;
@@ -326,6 +332,14 @@ html, body {
   width: 160px;
   height: fit-content;
   padding: 0 5px 5px 5px;
+}
+
+.perma-link:any-link{
+  color: var(--text-font-color);
+}
+
+.perma-link:hover{
+  color: #336b29;
 }
 
 .person-portrait{
@@ -644,6 +658,7 @@ html, body {
   }
 
   .header{
+    text-align: center;
     z-index:1000;
   }
 
@@ -681,10 +696,6 @@ html, body {
     padding-bottom: 12px;
   }
 
-  #about-header{
-    padding-bottom: 10px;
-  }
-
   .spacer-horizontal{
     //flex: 1 50%;
     flex: 1 20%;
@@ -701,6 +712,10 @@ html, body {
   #tuesday-container{
     margin-right: unset;
     margin-left: 3.8vw;
+  }
+
+  .bottom-padded{
+    padding-bottom: 10px;
   }
     .not-an-actual-class {float:none;}
 }
