@@ -6,11 +6,10 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
     <url>
         <loc>https://genhacks.tech/</loc>
-        <lastmod>2019-06-16T03:29:19+00:00</lastmod>
+        <lastmod>2019-06-19T04:40:37+00:00</lastmod>
     </url>
     <url>
         <loc>https://genhacks.tech/register</loc>
         <lastmod>2019-06-16T03:29:19+00:00</lastmod>
     </url>
-
 </urlset>
