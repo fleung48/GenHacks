@@ -19,7 +19,9 @@
   },
   "homepage": "https://github.com/e-zhang09/GenHacks#readme",
   "devDependencies": {
-    "nodemon": "^1.18.11"
+    "nodemon": "^1.18.11",
+    "imagemin": "^6.1.0",
+    "imagemin-webp": "^5.1.0"
   },
   "dependencies": {
     "body-parser": "^1.19.0",
