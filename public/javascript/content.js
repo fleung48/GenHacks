@@ -1,3 +1,5 @@
+let doc_height;
+
 $(".container-arrow").click(function(){
    $([document.documentElement, document.body]).animate({
       scrollTop: $("#content-start").offset().top
@@ -12,11 +14,13 @@ function onLoad () {
 
    let retry_counter = 0;
    if(isMobile) retry_counter = 6;
+   // console.log(isMobile, retry_counter);
 
    let retry_interval = setInterval(
        function(){
           if(retry_counter > 5){
              clearInterval(retry_interval);
+             return;
           }
           if((typeof TweenLite) === 'undefined'){
                retry_counter ++;
@@ -86,8 +90,47 @@ $(document).ready(function() {
       }, 1000);
    });
    $(window).resize(checkSize);
+   $(document).bind('mousewheel', function(evt) {
+      let winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+      let height = doc_height;
+      let scrolled = (winScroll / height) * 100;
+
+      //bottom is around 84
+      if(scrolled > 42){
+         loadHigherQualityPics();
+         $(document).unbind('mousewheel');
+      }
+   });
    onLoad();
 });
+
+async function loadHigherQualityPics(){
+   console.log("loading better pics");
+   let containers = document.getElementsByTagName("picture");
+   for (let i = 0; i < containers.length; i++) {
+      let pic_container = containers[i];
+      let name = pic_container.id;
+      await loadOne(pic_container, name);
+   }
+}
+
+function loadOne(container, name){
+   return new Promise(function(resolve){
+      setTimeout(function(){
+         let childrens = container.children;
+         for (let i = 0; i < childrens.length; i++) {
+            if(i === 0){
+               childrens[i].srcset = '/res/portraits/' + name + '.webp';
+            }else if(i === 1){
+               childrens[i].srcset = '/res/portraits/' + name + '.jpg';
+            }else{
+               childrens[i].src = './res/portraits/' + name + '.jpg';
+            }
+         }
+         resolve(1);
+      }, 150)
+   });
+}
 
 function rem(elm){
    $(elm).animate({"opacity": "0"}, 1999); // 2000 may overlap the second spawn
@@ -99,8 +142,8 @@ function rem(elm){
 
 //Function to the css rule
 function checkSize(){
-   let doc_height = $(document).height();
-   isMobile = $(".not-an-actual-class").css("float") === "none";
+   doc_height = $(document).height();
+   isMobile = $(".not-an-actual-class").css("float") !== "none";
    for (let i = 0; i < all_leaves.length; i++) {
       if(all_leaves[i].getAttribute('removing') == null){
          all_leaves[i].setAttribute('removing', true);
@@ -110,12 +153,12 @@ function checkSize(){
 }
 
 //TODO: do the blur thing
-var src = $('#test').css('background-image');
-var url = src.match(/\((.*?)\)/)[1].replace(/('|")/g,'');
-
-var img = new Image();
-img.onload = function() {
-   alert('image loaded');
-};
-img.src = url;
-if (img.complete) img.onload();
+// var src = $('#test').css('background-image');
+// var url = src.match(/\((.*?)\)/)[1].replace(/('|")/g,'');
+//
+// var img = new Image();
+// img.onload = function() {
+//    alert('image loaded');
+// };
+// img.src = url;
+// if (img.complete) img.onload();
