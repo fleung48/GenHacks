@@ -1,12 +1,12 @@
 @import url("https://fonts.googleapis.com/css?family=PT+Sans|Rubik&display=swap");
 @font-face {
   font-family: "lemon-milk";
+  font-display: swap;
   font-style: normal;
   font-weight: bold;
   src: url("/font/LemonMilkbold.eot");
   /* IE9 Compat Modes */
-  src: url("/font/LemonMilkbold.eot") format("embedded-opentype"), url("/font/LemonMilkbold.woff") format("woff"), url("/font/LemonMilkbold.ttf") format("truetype"), url("/font/LemonMilkbold.svg") format("svg");
-  /* Legacy iOS */
+  src: url("/font/LemonMilkbold.eot") format("embedded-opentype"), url("/font/LemonMilkbold.woff") format("woff"), url("/font/LemonMilkbold.ttf") format("truetype"), url("/font/LemonMilkbold.svg") format("svg"), local("Helvetica Neue Bold");
 }
 :root {
   --text-select-color: rgb(176, 235, 176);
@@ -327,6 +327,9 @@ html, body {
 
 .not-an-actual-class {
   float: left;
+  display: none;
+  margin: 0;
+  padding: 0;
 }
 
 #header-faq {
