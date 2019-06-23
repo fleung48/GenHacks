@@ -2,10 +2,13 @@ const express = require('express');
 const app = express();
 const path = require('path');
 const fs = require('fs');
+const compression = require('compression');
 
 const isLocal = process.env.NODE_ENV == null && process.env.NODE_ENV !== 'production';
 
 console.log("is local? " + isLocal);
+
+app.use(compression());
 
 const server = app.listen(process.env.PORT || 3001, function () {
     console.log('Listening on port ' + server.address().port);
