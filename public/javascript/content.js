@@ -105,7 +105,6 @@ $(document).ready(function() {
 });
 
 async function loadHigherQualityPics(){
-   console.log("loading better pics");
    let containers = document.getElementsByTagName("picture");
    for (let i = 0; i < containers.length; i++) {
       let pic_container = containers[i];
